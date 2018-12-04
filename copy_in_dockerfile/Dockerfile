@@ -7,7 +7,7 @@ ENV PROJECT_DIR /project
 WORKDIR ${PROJECT_DIR}
 
 # Copy local directory into image
-COPY .src/ ${PROJECT_DIR}
+COPY ./src/ ${PROJECT_DIR}
 
 # Execute `${PROJECT_DIR}/main.py`
 CMD ["python3" "main.py"]
