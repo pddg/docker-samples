@@ -10,4 +10,4 @@ WORKDIR ${PROJECT_DIR}
 COPY ./src/ ${PROJECT_DIR}
 
 # Execute `${PROJECT_DIR}/main.py`
-CMD ["python3" "main.py"]
+CMD ["/usr/local/bin/python", "main.py"]
