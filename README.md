@@ -32,6 +32,14 @@ Base image for deep learning with chainer.
     - [python-dotenv](https://github.com/theskumar/python-dotenv)
 - working dir: `/opt/proj`
 
+## chainer\_intel\_base
+
+Base image for deep learning with chainer using intel backend.
+
+- Base: [chainer/chainer](https://hub.docker.com/r/chainer/chainer/):v4.5.0-intel-python3
+- Installed modules
+    - As same as [chainer\_base](#chainer_base)
+
 ## copy\_in\_dockerfile
 
 A sample for the strategy that copy local file into image.
